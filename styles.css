@@ -1,0 +1,185 @@
+html {
+    scroll-behavior: smooth;
+    background: linear-gradient(135deg , #f3dada, #c9a9cc);
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+}
+
+body, li {
+    font-family: 'Delius', static;
+    color: #3a2b32;
+    line-height: 1.6;
+    font-size: large;
+}
+
+.header-bar {
+    background-color: rgb(201, 86, 124);
+    color: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100vw;
+    margin: 0;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+
+.header-bar h1 {
+    margin: 0;
+    font-size: 24px;
+    font-family: 'Delius', static;
+    margin: 0 0 0 20px;
+}
+
+.header-bar nav {
+    margin-right: 20px;
+}
+
+.header-bar nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 16px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.header-bar nav a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    background: rgb(247, 243, 239);
+    max-width: 1000px;
+    margin: 100px auto;
+    padding: 20px 20px;
+    border-radius: 15px;
+    box-shadow: 2px 4px 6px rgba(131, 71, 150, 0.863);
+}
+
+.title {
+    text-align: center;
+    font-size: 44px;
+    color: rgb(104, 75, 80);
+    font-family: 'Gorditas', cursive;
+    font-weight: 300;
+}
+
+.hero-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.hero-image {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 4px 6px rgba(189, 94, 125, 0.863);
+    transition: transform 0.3s ease;
+}
+
+.hero-image:hover {
+    transform: scale(1.02);
+
+}
+
+figcaption {
+    display: block;
+    margin-top: 3px;
+    font-style: italic;
+    color: #555;
+    font-family: 'Georgia', serif;
+}
+
+figcaption a {
+    background: linear-gradient(90deg, #cf718c, #343a8f);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: background-position 0.5s;
+    background-size: 200%;
+}
+
+figcaption a:hover {
+    text-shadow: 0 0 7px #ffb6ef;
+    background-position: right;
+}
+
+.links {
+    background: linear-gradient(90deg, #cf718c, #343a8f);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: background-position 0.5;
+    background-size: 200%;
+}
+
+.links a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.links:hover {
+    text-shadow: 0 0 7px #ffb6ef;
+    background-position: right;
+}
+
+h2 {
+    color: rgb(104, 75, 80);
+    background: linear-gradient(90deg, #f5d4da, transparent);
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+    border-radius: 8px;
+
+    font-family: 'Gorditas', cursive;
+    font-weight: 200;
+}
+
+p {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 7px;
+}
+
+ul {
+    margin-top: 1px;
+}
+
+.heart-list {
+    list-style-type: none;
+    padding-left: 55px;
+    position: static; 
+    margin-top: 1rem;
+}
+
+.heart-list li {
+    position: relative;
+    padding-left: 32px;
+    margin-bottom: 8px;
+}
+
+.heart-list li::before {
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url('images/heartIcon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+b.games {
+    color: #d10654;
+}
