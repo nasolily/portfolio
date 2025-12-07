@@ -1,16 +1,13 @@
 html {
     scroll-behavior: smooth;
     background: linear-gradient(135deg , #f3dada, #c9a9cc);
+    cursor: url('images/cursor.png'), auto;
 }
 
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
     margin-top: 20px;
     padding: 0;
-}
-
-body {
-  cursor: url('images/cursor.png'), auto;
 }
 
 body, li {
@@ -187,4 +184,5 @@ ul {
 b.games {
     color: #d10654;
 }
+
 
