@@ -9,6 +9,10 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 0;
 }
 
+body {
+  cursor: url('images/cursor.png'), auto;
+}
+
 body, li {
     font-family: 'Delius', static;
     color: #3a2b32;
@@ -183,3 +187,4 @@ ul {
 b.games {
     color: #d10654;
 }
+
